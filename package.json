@@ -1,0 +1,24 @@
+{
+  "name": "10rauf10runter",
+  "version": "0.1.0",
+  "description": "card game from south Germany",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christlang/10rauf10runter.git"
+  },
+  "keywords": [
+    "palying",
+    "cards",
+    "game"
+  ],
+  "author": "cl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christlang/10rauf10runter/issues"
+  },
+  "homepage": "https://github.com/christlang/10rauf10runter#readme"
+}

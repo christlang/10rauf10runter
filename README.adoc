@@ -1,0 +1,41 @@
+== 10rauf10runter
+card game from south Germany
+
+
+* Rules adapted from (https://de.wikipedia.org/wiki/Stiche-Raten)
+* deck cards: https://pixabay.com/vectors/deck-card-game-cards-game-playing-161797/
+* unicode - cards: https://de.wikipedia.org/wiki/Unicodeblock_Spielkarten
+* insert unicode in linux (https://www.linux-magazine.com/Online/Blogs/Productivity-Sauce/How-to-Enter-Unicode-Characters)
+  * ctrl+shift+u <number> enter
+  * ace of spades U+1F0A1: 🂡 
+  * ace of hearts U+1F0B1: 🂱
+  * ace of diamonds U+1F0C1: 🃁
+  * ace of clubs U+1F0D1: 🃑
+  * playing card back U+1F0A0: 🂠
+* Unicode Playing Cards https://codepen.io/ogab/full/peXpqW
+* playing cards coding
+  * spade U+2660: ♠ - s
+  * heart U+2764: ❤️ - h
+  * diamond U+2666: ♦ - d
+  * club U+2663: ♣ - c
+* all spades / same for heart, diamond, club
+  * sa - ace
+  * sk - king
+  * sq - queen
+  * sj - jack
+  * s10
+  * s9
+  * s8
+  * s7
+  * s6
+  * s5
+  * s4
+  * s3
+  * s2
+
+== Setup
+
+* TypeScript with Babel (https://iamturns.com/typescript-babel/)
+
+
+
