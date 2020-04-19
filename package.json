@@ -4,7 +4,7 @@
   "description": "card game from south Germany",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "check-types": "tsc"
   },
   "repository": {
@@ -23,9 +23,16 @@
   },
   "homepage": "https://github.com/christlang/10rauf10runter#readme",
   "devDependencies": {
+    "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+    "@babel/preset-env": "^7.9.5",
     "@babel/preset-typescript": "^7.9.0",
+    "babel-jest": "^25.3.0",
+    "jest": "^25.3.0",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/jest": "^25.2.1"
   }
 }
