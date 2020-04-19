@@ -4,7 +4,8 @@
   "description": "card game from south Germany",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check-types": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/christlang/10rauf10runter/issues"
   },
-  "homepage": "https://github.com/christlang/10rauf10runter#readme"
+  "homepage": "https://github.com/christlang/10rauf10runter#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "typescript": "^3.8.3"
+  }
 }
