@@ -9,7 +9,12 @@ export class CardsStack {
 
   constructor(private readonly cardsToPlay: number) {
     for (let i = 0; i < cardsToPlay; ++i) {
-      this.stack.push(new Card(`${this.colors[i]}${this.type[0]}`));
+      const color = this.colors[i%4];
+      const type = this.type[Math.floor(i/4)];
+      if (!color || !type) {
+        throw new Error(`error in producing cards for ${cardsToPlay} at iteration ${i}`);
+      }
+      this.stack.push(new Card(`${color}${type}`));
     }
   }
 
