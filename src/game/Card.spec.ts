@@ -17,5 +17,18 @@ describe('Card', () => {
     expect(a1).not.toEqual(a2);
   });
 
+  it('getCardWorth of ace', () => {
+    const a = new Card('sa');
+    expect(a.getTypeWorth()).toBe(13);
+  });
 
+  it('getCardWorth of 2', () => {
+    const a = new Card('h2');
+    expect(a.getTypeWorth()).toBe(1);
+  });
+
+  it('getColor', () => {
+    const a = new Card('h2');
+    expect(a.getColor()).toBe('h');
+  });
 })

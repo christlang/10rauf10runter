@@ -46,4 +46,19 @@ describe('CardsStack', () => {
   it('try to create a stack that is to big (only 52 cards in game)', () => {
     expect(() => new CardsStack(53)).toThrow('error in producing cards for 53 at iteration 52');
   });
+
+  it('cards from stack', () => {
+    const cut = new CardsStack(1);
+    const a = cut.draw();
+
+    expect(a.getColor()).toBe(a.getColor());
+  });
+
+  it('shuffled cards', () => {
+    const cut = new CardsStack(1);
+    const shuffled = cut.shuffle();
+    const a = shuffled.draw();
+
+    expect(a.getColor()).toBe(a.getColor());
+  })
 });

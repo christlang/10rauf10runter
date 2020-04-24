@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "check-types": "tsc"
+    "jest-w": "jest --watch",
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/christlang/10rauf10runter.git"
   },
   "keywords": [
-    "palying",
+    "playing",
     "cards",
     "game"
   ],
@@ -28,11 +29,15 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-typescript": "^7.9.0",
+    "@types/lodash": "^4.14.150",
     "babel-jest": "^25.3.0",
     "jest": "^25.3.0",
+    "ts-node": "^8.9.0",
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@types/jest": "^25.2.1"
+    "@types/jest": "^25.2.1",
+    "lodash": "^4.17.15",
+    "lodash.clonedeep": "^4.5.0"
   }
 }
